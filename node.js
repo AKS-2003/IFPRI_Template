@@ -79,8 +79,8 @@ async function convertHTMLFileToPDF(htmlFilePath, outputDirectory, outputFilenam
 // }
 async function main() {
   try {
-    const htmlFolderPath = path.join(__dirname, 'HTMLTemplates_new_version4'); // Folder containing HTML files
-    const outputDirectory = path.join(__dirname, 'PDF Leaflets-new-version4'); // Output folder
+    const htmlFolderPath = path.join(__dirname, 'HTML_Templates/HTMLTemplates_new_version5'); // Folder containing HTML files
+    const outputDirectory = path.join(__dirname, 'PDF Leaflets-newv3'); // Output folder
 
     if (!fs.existsSync(outputDirectory)) {
       fs.mkdirSync(outputDirectory, { recursive: true });
